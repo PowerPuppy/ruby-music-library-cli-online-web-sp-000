@@ -13,7 +13,10 @@ end
 
 def self.destroy_all
   @@all = []
+end
 
+def save
+  @@all << self
 end
 
 end
