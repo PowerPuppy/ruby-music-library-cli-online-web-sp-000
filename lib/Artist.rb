@@ -22,7 +22,6 @@ def self.create
   initialize
   save
   self
-
 end
 
 end
