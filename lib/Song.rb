@@ -22,7 +22,7 @@ end
 def self.create
     initialize(self)
     save
-    self
+    return self
 end
 
 end
