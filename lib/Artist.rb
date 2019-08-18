@@ -21,7 +21,6 @@ end
 
 def self.create(name)
   initialize(name)
-  save
 end
 
 end
