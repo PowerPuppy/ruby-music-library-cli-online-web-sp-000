@@ -19,4 +19,10 @@ def save
   @@all << self
 end
 
+def self.create
+    initialize(self)
+    save
+    self
+end
+
 end
