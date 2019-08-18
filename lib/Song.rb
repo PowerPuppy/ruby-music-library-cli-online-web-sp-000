@@ -20,9 +20,9 @@ def save
 end
 
 def self.create(name)
-    initialize(name)
-    save
-    self
+    new_song = Song.new(name)
+    new_song.save
+    new_song
 end
 
 end
