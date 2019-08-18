@@ -19,7 +19,7 @@ class Artist
   end
 
   def self.create(name)
-    initialize
+    initialize(name)
     save
   end
 
