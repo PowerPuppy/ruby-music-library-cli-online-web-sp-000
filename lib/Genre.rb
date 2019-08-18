@@ -18,7 +18,7 @@ def save
   @@all << self
 end
 
-def self.create
+def create
   initialize
   save
 end
